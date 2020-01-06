@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match the snapshot 1`] = `"<button color=\\"#d62027\\" class=\\"button__ColoredButton-sc-1gd83n3-0 bPICVJ btn\\" title=\\"Hello\\" type=\\"button\\" aria-label=\\"Hello\\"><span class=\\"button__Content-sc-1gd83n3-1 kdVsyS\\"><span class=\\"button__Text-sc-1gd83n3-3 ZwnKy\\">Hello</span></span></button>"`;

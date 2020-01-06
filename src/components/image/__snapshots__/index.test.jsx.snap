@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should match the snapshot 1`] = `"<img width=\\"100%\\" height=\\"auto\\" alt=\\"Default image alt text\\" class=\\"image__Img-sc-1ai8zv1-2 csjdcY\\">"`;

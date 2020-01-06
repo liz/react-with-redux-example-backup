@@ -1,0 +1,46 @@
+// colors
+$primaryColor: #4B5468;
+$backgroundAlt: #F7F7F7;
+
+$black: #000;
+$white: #fff;
+$red: red;
+$alto: #d8d8d8;
+
+// font-sizes
+$base-font-size: 1rem;
+
+$xxxxsmall-base-font: $base-font-size * 0.63; // about 10px
+$xxxsmall-base-font: $base-font-size * 0.69; // about 11px
+$xxsmall-base-font: $base-font-size * 0.75; // 12px
+$xsmall-base-font: $base-font-size * 0.81; // about 13px
+
+$small-base-font: $base-font-size * 0.875; // 14px
+$medium-base-font: $base-font-size * 1.125; // 18px
+$large-base-font: $base-font-size * 1.25; // 20px
+
+$xlarge-base-font: $base-font-size * 1.5; // 24px
+$xxlarge-base-font: $base-font-size * 2; // about 32px
+$xxxlarge-base-font: $base-font-size * 2.1875; // 35px
+$xxxxlarge-base-font: $base-font-size * 3; // 42px
+
+// type spacing
+$base-type-spacing: 1rem;
+
+// grid 
+$container: 1200px;
+$gutter: 15px;
+
+// buttons
+$button-padding: 10px 5px;
+$button-radius: 5px;
+$button-font-size: $base-font-size;
+$button-min-width: 175px;
+
+// forms
+$form-input-padding: $button-padding;
+$form-input-radius: $button-radius;
+$form-input-font-size: $button-font-size;
+
+// accordions
+$base-accordion-max-height: 1000px;

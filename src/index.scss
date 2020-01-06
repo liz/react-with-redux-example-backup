@@ -1,0 +1,114 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./utils.scss";
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: $base-font-size;
+	color: $black;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	monospace;
+}
+
+h1, h2, h3 h4, h5 {
+	padding-top: $base-type-spacing;
+	margin-bottom: $base-type-spacing;
+}
+
+h1 {
+	font-size: $xxlarge-base-font;
+}
+
+h2 {
+	font-size: $xlarge-base-font;
+}
+
+p, label {
+	padding-bottom: $base-type-spacing;
+}
+
+p {
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	&:only {
+		margin-bottom: $base-type-spacing;
+	}
+}
+
+label {
+	display: block;
+}
+
+button, input, textarea, select {
+	font-size: $button-font-size;
+	padding: $button-padding;
+	border-radius: $button-radius;
+}
+
+button {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	outline: none;
+
+	&:focus {
+		outline: none;
+	}
+
+	&.btn--link {
+		background: transparent;
+		border: 0;
+		border-radius: 0;
+		padding: 0;
+		min-width: 0;
+		outline: none;
+	}
+} // end button
+
+input, textarea, select {
+	box-sizing: border-box;
+	border: 1px solid $alto;
+	background: $white;
+}
+
+select {
+	background: transparent url('./images/chevron-down.svg') 98% 50%/16px auto
+      no-repeat;
+
+    -moz-appearance: none;
+  	-webkit-appearance: none;
+      
+    &::-ms-expand {
+      display: none;
+    }
+}
+
+.error {
+	color: $red;
+}
+
+form {
+	input, textarea, select, button {
+		width: 100%;
+	}
+
+	.error {
+		font-size: $xxxsmall-base-font;
+		text-align: left;
+		margin-top: 0.5rem;
+	}
+} // end form

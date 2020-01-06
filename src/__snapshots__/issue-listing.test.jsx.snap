@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IssueListing Renders should match the snapshot 1`] = `"<div><div class=\\"container__Shell-sc-1efg81n-0 gepMUD issue-listing__IssueListingContainer-sc-1yvnj25-0 eCEhNb\\"><div class=\\"row__RowContainer-g7667b-0 fhhpBZ\\"><div class=\\"issue-listing__FullWidthCol-sc-1yvnj25-12 gEgWco\\"><h2>Issues <span>for <span class=\\"highlight\\">example-repo</span></span></h2></div></div><div class=\\"row__RowContainer-g7667b-0 fhhpBZ\\"><div class=\\"issue-listing__FullWidthColNoPaddingMobile-sc-1yvnj25-14 bfEpPL\\"><p class=\\"issue-listing__NoRepoSelected-sc-1yvnj25-2 eZjJnz\\">Please select a repo from the lefthand column</p></div></div></div></div>"`;
