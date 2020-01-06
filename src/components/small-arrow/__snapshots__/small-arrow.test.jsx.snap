@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallArrow should match the snapshot 1`] = `"<span class=\\"small-arrow__SmallArrowContainer-sc-7bica9-0 jKpmhL\\" width=\\"5px\\" color=\\"#d62027\\"></span>"`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should match the snapshot 1`] = `"<div class=\\"container__Shell-sc-1efg81n-0 gepMUD\\"></div>"`;

@@ -1,0 +1,39 @@
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.highlight {
+	color: $primaryColor;
+}
+
+// slide up and down accordion classes
+.slideup,
+.slidedown {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.slideup {
+ 	transition: max-height 0.8s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slidedown {
+  max-height: $base-accordion-max-height;
+  transition: max-height 0.8s ease-in-out;
+}
+
+.text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}

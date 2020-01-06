@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should match the snapshot 1`] = `"<div class=\\"loading-spinner__LoadingContainer-vkkyih-0 eooODq\\"><img src=\\"loading.gif\\" width=\\"25px\\" height=\\"auto\\" alt=\\"Loading...\\" class=\\"image__Img-sc-1ai8zv1-2 kXWMGS\\"></div>"`;
